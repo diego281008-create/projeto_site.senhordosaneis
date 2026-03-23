@@ -3,62 +3,157 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ordem dos filmes da Triologia</title>
+    <title>Contato</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+
     <div id="titulo_principal">
-            <h1>O Senhor dos Anéis</h1>
-            <h2>Uma das maiores trilogias da história do cinema</h2>
-            <nav>
-              <a href="index.html">Home</a>
-              <a href="sinopse.html">Sinopse</a>
-              <a href="imagem.html">Imagem do filme</a>
-              <a href="personagensprincipais.html">Personagens principais</a>
-              <a href="informacoes.html">Informacões</a>
-              <a href="ordemdosfilmes.html" >Ordem dos filmes da triologia</a>
-              <a href="Curiosidades.html">Curiosidades</a>
-              <a href="Impacto.html ">Impancto Cultural</a>
-              <a hreff="contato.html">Contato</a>
-            </nav>
-        </div>
-     <h2 class="titulo_secundario">Ordem dos filmes da triologia</h2>
-        <ol>
-        <li>A Sociedade do Anel (2001)</li>
-        <li>As Duas Torres (2002)</li>
-        <li>O Retorno do Rei (2003)</li>
-        </ol>
+        <h1>O Senhor dos Anéis</h1>
+        <h2>Uma das trilogias mais famosas pneumoultramicroscopicossi<wbr>licovulcanoconiótico</h2>
 
-        <table border="3">
-            <tr>
-                <td>filme</td>
-                <td>Ano de lançamento</td>
-                <td>Diretor</td>
-                <td>Valor de produção</td>
-                <td>duração</td>
-            </tr>
-            <tr>
-                <td>The lord of the rings: The fellowship of the ring</td>
-                <td>2001</td>
-                <td>Peter Jackson</td>
-                <td>871 milhões</td>
-                <td>178 minutos</td>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="sinopse.html">Sinopse</a>
+            <a href="imagem.html">Imagem do filme</a>
+            <a href="personagensprincipais.html">Personagens principais</a>
+            <a href="informacoes.html">Informações</a>
+            <a href="ordemdosfilmes.html">Ordem dos filmes da trilogia</a>
+            <a href="Curiosidades.html">Curiosidades</a>
+            <a href="Impacto.html">Impacto Cultural</a>
+            <a href="#Conclusao">Conclusão</a>
+            <a href="contato.html">Contato</a>
+        </nav>
+    </div>
 
-            </tr>
-            <tr>
-                <td> The Lorde os the Rings: The Two Towers</td>
-                <td>2002</td>
-                <td>Peter Jackson</td>
-                <td>926 milhões</td>
-                <td>179 minutos</td>
-            </tr>
-            <tr>
-                <td>The Lord of the Rings</td>
-                <td>2002</td>
-                <td>Peter Jackson</td>
-                <td>1,1 bilhão</td>
-                <td>201 minutos</td>
-            </tr>
-        </table>
+    <h2 class="titulo_secundario">Entre em contato:</h2>
+
+    <form action="" method="post" autocapitalize="off">
+
+        <label for="nomepessoa">Nome:</label>
+        <input type="text" name="nomepessoa" id="nomepessoa" minlength="3" maxlength="15">
+        <br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" required>
+        <br><br>
+
+        <label for="ano">Ano de nascimento:</label>
+        <input type="number" id="ano" name="ano" max="2026" min="1900" placeholder="Informe ano de nascimento">
+        <br><br>
+
+        <label for="telefone">Telefone:</label>
+        <input type="tel" name="telefone" id="telefone">
+        <br><br>
+
+        <label for="github">Informe seu GitHub:</label>
+        <input type="url" name="github" id="github" placeholder="Informe seu GitHub">
+        <br><br>
+
+        <label for="senha">Informe sua senha:</label>
+        <input type="password" id="senha" name="senha">
+        <br><br>
+
+        <label for="arquivo">Anexe um arquivo:</label>
+        <input type="file" id="arquivo" name="arquivo">
+        <br><br>
+
+        <label for="cor">Escolha uma cor:</label>
+        <input type="color" id="cor" name="cor">
+        <br><br>
+
+        <fieldset>
+            <label for="data">Informe a data:</label>
+            <input type="date" id="data" name="data">
+            <br><br>
+
+            <label for="mes">Informe o mês:</label>
+            <input type="month" id="mes" name="mes">
+            <br><br>
+
+            <label for="semana">Informe a semana:</label>
+            <input type="week" id="semana" name="semana">
+            <br><br>
+
+            <label for="hora">Informe a hora:</label>
+            <input type="time" id="hora" name="hora">
+            <br><br>
+        </fieldset>
+
+        <label for="pesquisa">Pesquisa:</label>
+        <input type="search" id="pesquisa" name="pesquisa">
+        <br><br>
+
+        <label for="descricao">Informe o que você gosta nos filmes:</label><br><br>
+        <textarea cols="100" rows="20" name="descricao" id="descricao"></textarea>
+        <br><br>
+
+        <fieldset>
+            <legend>Qual é o seu filme favorito?</legend>
+
+            <label><input type="radio" name="filme" value="Filme 1"> Filme 1</label><br><br>
+            <label><input type="radio" name="filme" value="Filme 2" checked> Filme 2</label><br><br>
+            <label><input type="radio" name="filme" value="Filme 3"> Filme 3</label><br><br>
+        </fieldset>
+
+        <br><br>
+
+        <label for="nivel">Escolha o nível:</label>
+        <input type="range" max="10" min="1" id="nivel" name="nivel">
+
+        <br><br>
+
+        <select id="lista_suspensa" name="lista">
+            <optgroup label="Teste de legenda no combobox 1">
+                <option value="Teste 1">Teste 1</option>
+                <option value="Teste 2">Teste 2</option>
+                <option value="Teste 3">Teste 3</option>
+            </optgroup>
+
+            <optgroup label="Teste de legenda no combobox 2">
+                <option value="Teste 4">Teste 4</option>
+                <option value="Teste 5">Teste 5</option>
+                <option value="Teste 6">Teste 6</option>
+            </optgroup>
+        </select>
+
+        <fieldset>
+            <legend>Desenvolvimento para internet</legend>
+            <label><input type="checkbox" name="php" value="php"> PHP</label>
+            <label><input type="checkbox" name="html5" value="html5"> HTML5</label>
+            <label><input type="checkbox" name="css" value="css"> CSS</label>
+            <label><input type="checkbox" name="js" value="js"> JavaScript</label>
+        </fieldset>
+
+        <br><br>
+
+        <input type="text" id="busca_datalist" list="paises">
+
+        <datalist id="paises">
+            <option>Brasil</option>
+            <option>França</option>
+            <option>Alemanha</option>
+            <option>Inglaterra</option>
+            <option>Espanha</option>
+        </datalist>
+
+        <br><br>
+
+        <audio controls muted autoplay>
+            <source src="/Audio/musica.mp3" type="audio/mp3">
+            Navegador não é compatível para escutar áudio!
+        </audio>
+
+        <br><br>
+
+        <video controls autoplay loop>
+        <source src="/Video/videoteste.mp4" type="video/mp4">
+
+        
+
+        <button type="submit">Enviar</button>
+
+    </form>
+
 </body>
 </html>
