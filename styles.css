@@ -1,10 +1,10 @@
-            .titulo_secundario{
-                background-color: #217400;
+            #titulo_principal{
+                background-color: #ac7000;
                 color: white;
             }
 
-            #titulo_principal{
-                background-color: #217400;
+            .titulo_secundario{
+                background-color: #1a5a00;
                 color: white;
             }
 
@@ -14,4 +14,8 @@
 
             .rodape{
                 text-align: center  ;
+            }
+
+            .paragrafos_principais{
+                color:black
             }
