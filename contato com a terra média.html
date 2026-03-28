@@ -7,6 +7,7 @@
     </head>
 
     <body>
+<form action="#" method="get">  
 
        <div id="titulo_principal">
             <h1>O Senhor dos Anéis</h1>
@@ -22,7 +23,7 @@
               <a href="Impacto.html ">Impancto Cultural</a>
               <a href="#Conclusão"> Conclusão</a>
               <a href="contato.html">Contato</a>
-              <a href="contato com a terra médio.html">Contato Terra Média</a>
+              <a href="contato com a terra média.html">Contato Terra Média</a>
             </nav>      
         </div>
 
@@ -73,7 +74,48 @@
         </select>
             </legend><br>
 
+        <fieldset>
+            <legend>Suas habilidades</legend>
+            <label><input type="checkbox" name="espada" value="espada">Espada</label>
+            <label><input type="checkbox" name="arco" value="arco">Arco de flecha</label>
+            <label><input type="checkbox" name="magia" value="magia">Magia</label>
+            <label><input type="checkbox" name="hobbit" value="hobbit">Furtividade Hobbit</label>
+        </fieldset><br>
 
+         <label for="nivel">Nível de coragem (1 a 10):</label>
+        <input type="range" max="10" min="1" id="nivel" name="nivel"><br><br>
+
+        <label for="reino">Seu reino de origem  :</label>
+        <input type="text" id="busca_datalist" list="reino">
+
+        <datalist id="reino">
+            <option>Gondor</option>
+            <option>Rohan</option>
+            <option>Mordor</option>
+            <option>Condado</option>
+        </datalist><br><br>
+
+        <label for="cor">Cor do seu manto:</label>
+        <input type="color" id="cor" name="cor"><br><br>
+
+        <label for="data">Data da sua jornada:</label>
+        <input type="date" id="data" name="data"><br><br>
+
+        <label for="arquivo">Anexe uma relíquia</label>
+        <input type="file" id="arquivo" name="arquivo"><br><br>
+
+        <label for="mensagem">Mensagem ao conselho:</label><br><br>
+        <textarea cols="40" rows="8" name="descricao" id="descricao" placeholder="Escreva sua missão..."></textarea><br><br>
+
+         <button type="submit">Enviar para Valfenda</button>
+            <button type="reset">Apagar Pergaminho</button>
+ </form>
+
+
+
+
+
+    
 
 
 
